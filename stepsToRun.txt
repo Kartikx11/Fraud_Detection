@@ -1,0 +1,14 @@
+Steps to run the code:
+1> Run the Code for EDA, Preprocessing, and Model Building:
+
+This part performs EDA, preprocesses the dataset, builds and evaluates multiple models, and selects the best one (XGBoost in this case).
+
+2> Save and Deploy the Model as an API:
+
+The model is saved using pickle and deployed using a Flask API.
+To deploy the model as an API, ensure Flask is installed (pip install flask).
+Run the API with python app.py.
+
+3> Make API Requests:
+
+You can make POST requests to http://localhost:5000/predict by passing a single transaction as JSON for fraud prediction.
